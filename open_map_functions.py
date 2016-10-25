@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 All Functions Created Throughout the Lesson and Functions Called Upon
-For P3
+For P3 on Udacity's Data Wrangling Course
 Created on Thu Sep 29 12:00:53 2016
 @author: ericgordo
 """
