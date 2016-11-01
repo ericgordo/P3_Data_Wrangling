@@ -10,6 +10,8 @@ Additionally, I felt that it would be interesting to choose a location that is n
 in a very populated urban area, to just see if there was an effect on how open
 map data would look for a more rural area compared to an urban Area.
 
+All python code used is attached, as well as the final write up to summarize all of my findings. For any questions please feel free to contact me at ericgordo@gmail.com. 
+
 
 Work Cited
 XML File for this Analysis from: http://wiki.openstreetmap.org/wiki/OSM_XML
