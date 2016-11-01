@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Write Up</title>
+<title>Final Write Up</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11760,7 +11760,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Openstreetmap.org is an openly publiclly sourced interactive map, where users enter any landmarks, locations, or other items that they see fit. All data from this website is freely availible to download and analyze. This report takes a 123.8 MB XML file of data dowloaded from this <a href="http://www.openstreetmap.org/export#map=10/39.0981/-119.9220">site</a> of the greater Lake Tahoe area, and audits it to find the quality of the user entered data that has been imported for this region of the globe.</p>
+<p>This write up overviews a project in which python code was used to audit, fix, and convert an XML file to CSV files. Additionally, after this conversion, the CSV files were imported to a single database so that SQL queries could be used to further analyze the data. The region analyzed is the Lake Tahoe area, and the data was taken from openstreetmap.org. To access more information and the python code that was used to complete this project, press <a href="https://github.com/ericgordo/P3_Data_Wrangling">here.</a> Otherwise, this write up highlights the key insights and finding from this entire project.</p>
+<h2 id="About-this-Data">About this Data<a class="anchor-link" href="#About-this-Data">&#182;</a></h2><p>Openstreetmap.org is an openly publiclly sourced interactive map, where users enter any landmarks, locations, or other items that they see fit. All data from this website is freely availible to download and analyze. This report takes a 123.8 MB XML file of data dowloaded from this <a href="http://www.openstreetmap.org/export#map=10/39.0981/-119.9220">site</a> of the greater Lake Tahoe area, and audits it to find the quality of the user entered data that has been imported for this region of the globe.</p>
 <p>After auditing the data, Python coding will convert the XML file to CSV files, and then convert the CSV files into a singular database, so that we can use SQL scripts to pull more insights about the data in a easily accessible format. Finally this project suggests further recomendations to investigating this data. If you want to read more info on the data format of this XML data file, please feel free to check out the website's <a href="http://wiki.openstreetmap.org/wiki/OSM_XML">wikipedia</a>.</p>
 
 </div>
@@ -11771,7 +11772,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Auditing">Data Auditing<a class="anchor-link" href="#Data-Auditing">&#182;</a></h1>
+<h2 id="Data-Auditing">Data Auditing<a class="anchor-link" href="#Data-Auditing">&#182;</a></h2>
 </div>
 </div>
 </div>
